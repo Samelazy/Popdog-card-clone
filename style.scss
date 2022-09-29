@@ -160,9 +160,6 @@ img {
 	z-index: 10;
 	transition: transform 200ms cubic-bezier(.21, 1.06, .81, 1.01);
 }
-.front .streamers img:nth-of-type(1) {
-
-}
 .front {
 	transition: 250ms;
 	.thumbnail {
@@ -242,7 +239,7 @@ img {
 }
 .game:hover {
 	.rank {
-		transform: translate(150%, -80%);
+		transform: translate(150%, -81%);
 	}
 	.front {
 		transform: translateY(-30%) scale(.8);

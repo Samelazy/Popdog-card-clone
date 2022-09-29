@@ -339,9 +339,9 @@ img {
 }
 
 .game:hover .rank {
-  -webkit-transform: translate(150%, -80%);
-      -ms-transform: translate(150%, -80%);
-          transform: translate(150%, -80%);
+  -webkit-transform: translate(150%, -81%);
+      -ms-transform: translate(150%, -81%);
+          transform: translate(150%, -81%);
 }
 
 .game:hover .front {
