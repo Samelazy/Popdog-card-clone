@@ -95,7 +95,7 @@ img {
 	position: relative;
 	width: 2em;
 	height: 2em;
-	margin: 0 auto;
+	// margin: 0 auto;
 	transition: transform ease-in-out 150ms;
 }
 .streamer:hover .icon {
@@ -105,7 +105,7 @@ img {
 	opacity: 1;
 }
 .streamer .icon:hover {
-	transform: translateY(-15%) scale(1.1);
+	transform: translateY(-15%) scale(1.2);
 }
 
 .icon::before,
@@ -122,7 +122,7 @@ img {
 .icon::before {
 	content: "\e901";
 	background: #f00;
-	font-size: .65em;
+	font-size: .5em;
 	font-weight: 900;
 	display: flex;
 	justify-content: center;
@@ -144,7 +144,7 @@ img {
 		opacity: .9;
 	}
 	100% {
-		transform: scale(1.4);
+		transform: scale(1.5);
 		opacity: 0;
 	}
 }

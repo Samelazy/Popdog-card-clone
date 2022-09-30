@@ -100,7 +100,6 @@ img {
   position: relative;
   width: 2em;
   height: 2em;
-  margin: 0 auto;
   -webkit-transition: -webkit-transform ease-in-out 150ms;
   transition: -webkit-transform ease-in-out 150ms;
   -o-transition: transform ease-in-out 150ms;
@@ -119,9 +118,9 @@ img {
 }
 
 .streamer .icon:hover {
-  -webkit-transform: translateY(-15%) scale(1.1);
-      -ms-transform: translateY(-15%) scale(1.1);
-          transform: translateY(-15%) scale(1.1);
+  -webkit-transform: translateY(-15%) scale(1.2);
+      -ms-transform: translateY(-15%) scale(1.2);
+          transform: translateY(-15%) scale(1.2);
 }
 
 .icon::before,
@@ -143,7 +142,7 @@ img {
 .icon::before {
   content: "\e901";
   background: #f00;
-  font-size: .65em;
+  font-size: .5em;
   font-weight: 900;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -176,8 +175,8 @@ img {
     opacity: .9;
   }
   100% {
-    -webkit-transform: scale(1.4);
-            transform: scale(1.4);
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
     opacity: 0;
   }
 }
@@ -189,8 +188,8 @@ img {
     opacity: .9;
   }
   100% {
-    -webkit-transform: scale(1.4);
-            transform: scale(1.4);
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
     opacity: 0;
   }
 }
